@@ -1,0 +1,17 @@
+#playbook.yml:
+---
+
+- name: "Ansible Playbook example"
+
+  hosts: 127.0.0.1
+
+  connection: local
+  
+  tasks:
+    - name: "check out Git Repository in git"
+    
+      git:
+         
+         repo: https://github.com/Nevermore192/Devops-Tusk
+  
+  
